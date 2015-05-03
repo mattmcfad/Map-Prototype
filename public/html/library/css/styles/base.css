@@ -11,10 +11,18 @@
   height: 1000px;
 }
 
+/* line 17, ../../scss/styles/base.scss */
+#map-canvas {
+  display: block;
+  width: 500px;
+  height: 500px;
+  border: 10px solid black;
+}
+
 /* ==========================================================================
  Debug Styles
  ========================================================================== */
-/* line 23, ../../scss/styles/base.scss */
+/* line 31, ../../scss/styles/base.scss */
 #debug-message {
   position: fixed;
   bottom: 0;
@@ -27,15 +35,15 @@
   color: #fff;
   background: pink;
 }
-/* line 34, ../../scss/styles/base.scss */
+/* line 42, ../../scss/styles/base.scss */
 #debug-message p {
   margin: 0;
 }
-/* line 37, ../../scss/styles/base.scss */
+/* line 45, ../../scss/styles/base.scss */
 #debug-message .small, #debug-message .medium, #debug-message .large, #debug-message .exlarge {
   display: none;
 }
-/* line 40, ../../scss/styles/base.scss */
+/* line 48, ../../scss/styles/base.scss */
 #debug-message .small {
   display: block;
 }

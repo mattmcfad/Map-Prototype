@@ -1,7 +1,7 @@
 /* ==========================================================================
-   Base Stylesheet (0 - 640)
+   LANDING PAGE STYLES
    ========================================================================== */
-/* line 6, ../../scss/styles/base.scss */
+/* line 8, ../../scss/styles/base.scss */
 .landingPage {
   background: url(../images/bridge.jpeg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -11,10 +11,29 @@
   height: 1000px;
 }
 
+/* line 18, ../../scss/styles/base.scss */
+.mainTitle {
+  text-align: center;
+  font-size: 48px;
+  color: teal;
+}
+
+/* ==========================================================================
+   APP PAGE STYLES
+   ========================================================================== */
+/* line 29, ../../scss/styles/base.scss */
+.mainPage {
+  height: 1000px;
+  background: teal;
+}
+
+/* ==========================================================================
+    CONTACT PAGE STYLES
+   ========================================================================== */
 /* ==========================================================================
  Debug Styles
  ========================================================================== */
-/* line 23, ../../scss/styles/base.scss */
+/* line 47, ../../scss/styles/base.scss */
 #debug-message {
   position: fixed;
   bottom: 0;
@@ -27,15 +46,15 @@
   color: #fff;
   background: pink;
 }
-/* line 34, ../../scss/styles/base.scss */
+/* line 58, ../../scss/styles/base.scss */
 #debug-message p {
   margin: 0;
 }
-/* line 37, ../../scss/styles/base.scss */
+/* line 61, ../../scss/styles/base.scss */
 #debug-message .small, #debug-message .medium, #debug-message .large, #debug-message .exlarge {
   display: none;
 }
-/* line 40, ../../scss/styles/base.scss */
+/* line 64, ../../scss/styles/base.scss */
 #debug-message .small {
   display: block;
 }

@@ -1,10 +1,20 @@
 /* ==========================================================================
    Base Stylesheet (0 - 640)
    ========================================================================== */
+/* line 6, ../../scss/styles/base.scss */
+.landingPage {
+  background: url(../images/bridge.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 1000px;
+}
+
 /* ==========================================================================
  Debug Styles
  ========================================================================== */
-/* line 15, ../../scss/styles/base.scss */
+/* line 23, ../../scss/styles/base.scss */
 #debug-message {
   position: fixed;
   bottom: 0;
@@ -17,15 +27,15 @@
   color: #fff;
   background: pink;
 }
-/* line 26, ../../scss/styles/base.scss */
+/* line 34, ../../scss/styles/base.scss */
 #debug-message p {
   margin: 0;
 }
-/* line 29, ../../scss/styles/base.scss */
+/* line 37, ../../scss/styles/base.scss */
 #debug-message .small, #debug-message .medium, #debug-message .large, #debug-message .exlarge {
   display: none;
 }
-/* line 32, ../../scss/styles/base.scss */
+/* line 40, ../../scss/styles/base.scss */
 #debug-message .small {
   display: block;
 }

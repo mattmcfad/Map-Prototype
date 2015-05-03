@@ -12,7 +12,7 @@ app.use(multer()); // for parsing multipart/form-data
 
 
 app.use(express.static(__dirname + "/public"));
-app.use(express.static(__dirname + "/public/layouts"));
+app.use(express.static(__dirname + "/public/html"));
 
 
 // Routes

@@ -1,51 +1,67 @@
-/*
-Error: Invalid CSS after "...c09a3f15be61793": expected "{", was "}"
-        on line 47 of /Users/Logan/Desktop/map-prototype/Map-Prototype/public/html/library/scss/styles/base.scss
+/* ==========================================================================
+   LANDING PAGE STYLES
+   ========================================================================== */
+/* line 8, ../../scss/styles/base.scss */
+.landingPage {
+  background: url(../images/bridge.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 1000px;
+}
 
-42: >>>>>>> b7974e617fea27052de04132ac09a3f15be61793
-43: 
-44: 
-45: 
-46: 
-47: }
-48: 
-49: 
-50: /* ==========================================================================
-51:     CONTACT PAGE STYLES
-52:    ========================================================================== *\/
+/* line 19, ../../scss/styles/base.scss */
+.mainTitle {
+  text-align: center;
+  font-size: 48px;
+  color: teal;
+}
 
-Backtrace:
-/Users/Logan/Desktop/map-prototype/Map-Prototype/public/html/library/scss/styles/base.scss:47
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/scss/parser.rb:1165:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/scss/parser.rb:1101:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/scss/parser.rb:1096:in `tok!'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/scss/parser.rb:641:in `block'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/scss/parser.rb:711:in `declaration_or_ruleset'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/scss/parser.rb:661:in `block_child'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/scss/parser.rb:653:in `block_contents'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/scss/parser.rb:642:in `block'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/scss/parser.rb:635:in `ruleset'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/scss/parser.rb:660:in `block_child'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/scss/parser.rb:653:in `block_contents'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/scss/parser.rb:117:in `stylesheet'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/scss/parser.rb:42:in `parse'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/engine.rb:393:in `_to_tree'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/engine.rb:268:in `render'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:209:in `each'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:328:in `block in watch'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/vendor/listen/lib/listen/listener.rb:252:in `call'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/vendor/listen/lib/listen/adapter.rb:254:in `call'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...c09a3f15be61793\": expected \"{\", was \"}\"\A         on line 47 of /Users/Logan/Desktop/map-prototype/Map-Prototype/public/html/library/scss/styles/base.scss\A \A 42: >>>>>>> b7974e617fea27052de04132ac09a3f15be61793\A 43: \A 44: \A 45: \A 46: \A 47: }\A 48: \A 49: \A 50: /* ==========================================================================\A 51:     CONTACT PAGE STYLES\A 52:    ========================================================================== */"; }
+/* ==========================================================================
+   APP PAGE STYLES
+   ========================================================================== */
+/* line 30, ../../scss/styles/base.scss */
+.mainPage {
+  height: 1000px;
+  background: teal;
+}
+/* line 34, ../../scss/styles/base.scss */
+.mainPage #map-canvas {
+  display: block;
+  width: 500px;
+  height: 500px;
+  border: 10px solid black;
+}
+
+/* ==========================================================================
+    CONTACT PAGE STYLES
+   ========================================================================== */
+/* ==========================================================================
+ Debug Styles
+ ========================================================================== */
+/* line 56, ../../scss/styles/base.scss */
+#debug-message {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 9999;
+  padding: 10px;
+  width: auto;
+  height: auto;
+  font-size: 12px;
+  color: #fff;
+  background: pink;
+}
+/* line 67, ../../scss/styles/base.scss */
+#debug-message p {
+  margin: 0;
+}
+/* line 70, ../../scss/styles/base.scss */
+#debug-message .small, #debug-message .medium, #debug-message .large, #debug-message .exlarge {
+  display: none;
+}
+/* line 73, ../../scss/styles/base.scss */
+#debug-message .small {
+  display: block;
+}

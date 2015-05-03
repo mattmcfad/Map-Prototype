@@ -29,6 +29,7 @@
             <h1 class="mainTitle">Lorem Ipsum Title</h1>
          </div>
       </div>
+
       <div class="row">
          <div class="mainPage">
             <div class="appArea small-12 medium-6 columns">
@@ -62,3 +63,36 @@
          <script src="library/js/app.js"></script>
       </body>
    </html>
+
+
+
+      <div id="map-canvas"></div>
+
+
+  
+
+    <input type="hidden" id="txtDebug" name="txtDebug" value="true" />
+
+    <script src="library/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="library/bower_components/foundation/js/foundation.min.js"></script>
+    <script src="library/js/rem-unit-polyfill.min.js"></script>
+    <script src="library/js/app.js"></script>
+    <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfIHpboET_oZhZo_HYy1YRM-wXCjAqiyE">
+    </script>
+
+    <script type="text/javascript">
+      function initialize() {
+        var mapOptions = {
+          center: { lat: -34.397, lng: 150.644},
+          zoom: 8
+        };
+        var map = new google.maps.Map(document.getElementById('map-canvas'),
+            mapOptions);
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+  </body>
+</html>
+>>>>>>> b7974e617fea27052de04132ac09a3f15be61793

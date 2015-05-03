@@ -18,5 +18,15 @@
   "bugs": {
     "url": "https://github.com/mattmcfad/Map-Prototype/issues"
   },
-  "homepage": "https://github.com/mattmcfad/Map-Prototype"
+  "homepage": "https://github.com/mattmcfad/Map-Prototype",
+  "dependencies": {
+    "express": "^4.10.5",
+    "mongodb": "^1.4.23",
+    "multer": "^0.1.6",
+    "body-parser": "^1.10.0",
+    "cloudinary": "^1.1.0"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
 }

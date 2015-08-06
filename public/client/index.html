@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Map Prototype</title>
+		<style>
+			.map-container {
+				width: 500px;
+				height: 500px;
+			}
+			#map-canvas {
+				width: inherit;
+				height: inherit;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="main-wrapper">
+			<div class="map-container">
+				<div id="map-canvas"></div>
+			</div>
+			<label for="address">Address or Postal Code
+				<input type="text" placeholder="Address" id="address">
+			</label>
+			<button id="search-postal-code">Search!</button>
+		</div>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfIHpboET_oZhZo_HYy1YRM-wXCjAqiyE"></script>
+		<script src="app.js"></script>
+	</body>
+</html>
